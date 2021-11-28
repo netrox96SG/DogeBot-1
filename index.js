@@ -1,6 +1,6 @@
-// Script by Xeon 
+// Script by MR SOUMYA 
 // 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭
-// ©Xeon Bot Incorporated
+// ©Netrox bot Incorporated
 const {
   WAConnection: _WAConnection,
   MessageType,
@@ -139,9 +139,9 @@ nopref = true
 numbernye = '0'
 autoketik = false;
 prefixStatus = false;
-targetpc = "916909137213"; 
-owner = "916909137213"; 
-fakeyoi = "Xeon"; 
+targetpc = "919776517392"; 
+owner = "919776517392"; 
+fakeyoi = "Mr soumya"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
 hardi = 'hardianto', 
@@ -150,7 +150,7 @@ zeksapi = "vallganz5",
 dapapi = "anakasu",
 ApiZeks = "https://api.zeks.xyz",
 zeksApikey = "Alphabott",
-nomorowner1 = "@916909137213"; 
+nomorowner1 = "@919776517392"; 
 fake = `𝗢𝘄𝗻𝗲𝗿 : ${fakeyoi}\n㋛︎ 𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg"); 
 numbernye = "0"; 
@@ -216,7 +216,7 @@ const runtime = function (seconds) {
   var sDisplay = s > 0 ? s + (s == 1 ? " second" : " Second") : "";
   return dDisplay + hDisplay + mDisplay + sDisplay;
 };
-module.exports = xeon = async (xeon, mek) => {
+module.exports = SG = async (SG, mek) => {
   try {
     if (!mek.hasNewMessage) return;
     mek = mek.messages.all()[0];
